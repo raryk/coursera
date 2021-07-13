@@ -1,0 +1,38 @@
+#header-nav {
+	background-color: #999999;
+	border-radius: 0;
+	border: 0;
+	color: black
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-brand p {
+	color: black;
+	font-size: 20px
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+}
+
+#home {
+	margin-bottom: 20px;
+}
+
+.row > div > article {
+	background-color: #999999;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
